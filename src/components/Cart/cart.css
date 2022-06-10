@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.asideCart{
+    padding: 16px;
+}
+
+.cartTitle{
+    width: 100%;
+    height: 65px;
+
+    background-color: #27AE60;
+
+    border-radius: 5px 5px 0px 0px;
+
+    display: inline-flex;
+}
+
+.cartTitle h3{
+    margin-left: 21px;
+
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.cartProducts{
+    width: 100%;
+
+    background-color: #F5F5F5;
+
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cartEmpty{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.cartEmpty h4{
+    margin-top: 0;
+
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #333333;
+}
+
+.cartEmpty p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #828282;
+}
+
+.cartList{
+    list-style: none;
+
+    margin-top: 0px;
+
+    padding: 15px 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.borderLine{
+    border: 1px solid #E0E0E0;
+
+    margin: 0px 19px;
+}
+
+.cartInfos{
+    padding: 0px 20px 20px;
+}
+
+.cartInfos p{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #333333;
+
+    display: inline-flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.cartInfos span{
+    color: #828282;
+}
+
+.cartInfos button{
+    width: 100%;
+    height: 60px;
+
+    background-color: #E0E0E0;
+    color: #828282;
+
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    cursor: pointer;
+}
+
+.cartInfos button:hover{
+    background-color: #828282;
+    color: #E0E0E0;
+}
+
+@media screen and (min-width: 1020px){
+    .asideCart{
+        min-width: 365px;
+
+        margin-right: 115px;
+    }
+}

@@ -1,0 +1,13 @@
+.App-header {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1020px) {
+  .content{
+    display: flex;
+
+    margin-top: 32px;
+  }
+}
+
+
